@@ -1,5 +1,5 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: "https://salkaro.com",
+  siteUrl: "https://iot.salkaro.com",
   sitemapSize: 7000,
 };

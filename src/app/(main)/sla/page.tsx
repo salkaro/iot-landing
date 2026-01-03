@@ -19,7 +19,7 @@ export const metadata = {
         title: "Service Level Agreement – Salkaro",
         description:
             "Explore the service guarantees Salkaro provides, including system uptime, incident response times, and support availability for our IoT solutions.",
-        url: "https://salkaro.com/sla",
+        url: "https://iot.salkaro.com/sla",
         siteName: "Salkaro",
         images: [
             {

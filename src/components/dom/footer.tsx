@@ -16,7 +16,7 @@ export const Footer = () => {
                 },
                 {
                     title: "API Docs",
-                    href: "https://docs.salkaro.com",
+                    href: "https://iot.docs.salkaro.com",
                 },
                 {
                     title: "Code Examples",

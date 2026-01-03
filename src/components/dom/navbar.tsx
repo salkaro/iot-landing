@@ -36,7 +36,7 @@ export const Navbar = () => {
                 },
                 {
                     title: "API Docs",
-                    href: "https://docs.salkaro.com",
+                    href: "https://iot.docs.salkaro.com",
                 },
                 {
                     title: "Post",
@@ -102,7 +102,7 @@ export const Navbar = () => {
                                                                 {item.description}
                                                             </p>
                                                         </div>
-                                                        <Button size="sm" className="mt-10" onClick={() => router.push("https://app.salkaro.com/sign-up")}>
+                                                        <Button size="sm" className="mt-10" onClick={() => router.push("https://iot.app.salkaro.com/sign-up")}>
                                                             Get started
                                                         </Button>
                                                     </div>
@@ -128,15 +128,15 @@ export const Navbar = () => {
                     </NavigationMenu>
                 </div>
                 <div className="flex lg:justify-center">
-                    <p className="font-semibold">Salkaro</p>
+                    <p className="font-semibold">IoT Salkaro</p>
                 </div>
                 <div className="flex justify-end w-full gap-4">
-                    <Button variant="ghost" className="hidden md:inline" onClick={() => router.push("https://docs.salkaro.com")}>
+                    <Button variant="ghost" className="hidden md:inline" onClick={() => router.push("https://iot.docs.salkaro.com")}>
                         Documentation
                     </Button>
                     <div className="border-r hidden md:inline"></div>
-                    <Button variant="outline" onClick={() => router.push("https://app.salkaro.com/login")}>Sign in</Button>
-                    <Button onClick={() => router.push("https://app.salkaro.com/sign-up")}>Get started</Button>
+                    <Button variant="outline" onClick={() => router.push("https://iot.app.salkaro.com/login")}>Sign in</Button>
+                    <Button onClick={() => router.push("https://iot.app.salkaro.com/sign-up")}>Get started</Button>
                 </div>
                 <div className="flex w-12 shrink lg:hidden items-end justify-end">
                     <Button variant="ghost" onClick={() => setOpen(!isOpen)}>

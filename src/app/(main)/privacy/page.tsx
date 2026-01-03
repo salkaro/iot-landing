@@ -19,7 +19,7 @@ export const metadata = {
         title: "Privacy Policy – Salkaro",
         description:
             "Review how Salkaro handles your personal and device data to ensure transparency, security, and compliance with privacy laws.",
-        url: "https://salkaro.com/privacy",
+        url: "https://iot.salkaro.com/privacy",
         siteName: "Salkaro",
         images: [
             {

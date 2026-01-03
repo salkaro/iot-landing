@@ -23,7 +23,7 @@ export const metadata = {
         title: "Salkaro Blog – Deep Dive into IoT & Device Management",
         description:
             "Discover expert content on building and scaling IoT networks—sensor guides, firmware tips, platform insights, and more from the Salkaro team.",
-        url: "https://salkaro.com/blog",
+        url: "https://iot.salkaro.com/blog",
         siteName: "Salkaro",
         images: [
             {

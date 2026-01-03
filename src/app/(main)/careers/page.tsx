@@ -20,7 +20,7 @@ export const metadata = {
         title: "Careers at Salkaro – Build the Future of IoT",
         description:
             "Be part of the team simplifying how connected devices are built and managed. Explore career opportunities at Salkaro.",
-        url: "https://salkaro.com/careers",
+        url: "https://iot.salkaro.com/careers",
         siteName: "Salkaro",
         images: [
             {

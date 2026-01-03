@@ -27,11 +27,11 @@ export const Hero = () => {
                             </p>
                         </div>
                         <div className="flex flex-row gap-4">
-                            <Button size="lg" className="gap-4" variant="outline" onClick={() => router.push("https://docs.salkaro.com")}>
+                            <Button size="lg" className="gap-4" variant="outline" onClick={() => router.push("https://iot.docs.salkaro.com")}>
                                 Documentation <BookText className="w-4 h-4" />
                             </Button>
                             <Button size="lg" className="gap-4">
-                                Sign up here <MoveRight className="w-4 h-4" onClick={() => router.push("https://app.salkaro.com/sign-up")} />
+                                Sign up here <MoveRight className="w-4 h-4" onClick={() => router.push("https://iot.app.salkaro.com/sign-up")} />
                             </Button>
                         </div>
                     </div>

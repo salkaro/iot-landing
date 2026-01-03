@@ -20,7 +20,7 @@ export const blog1: IBlog = {
                 "Connect pressure, temperature, flow, and custom sensors to our IoT platform using simple API requests.",
                 "Monitor live sensor data, receive updates instantly, and make smarter decisions—all from a centralized dashboard.",
             ],
-            link: "https://docs.salkaro.com/docs/upload-device-data",
+            link: "https://iot.docs.salkaro.com/docs/upload-device-data",
         },
         {
             title: "Manage Teams, Permissions, and Devices with Ease",
@@ -50,7 +50,7 @@ export const blog1: IBlog = {
                 "Generate and manage secure API keys for integrating devices and services.",
                 "Ensure sensitive data and controls are only available to authorized users.",
             ],
-            link: "https://docs.salkaro.com/docs/generate-api-keys",
+            link: "https://iot.docs.salkaro.com/docs/generate-api-keys",
         },
         {
             title: "Conclusion: Simplify Your IoT at Scale",
@@ -58,7 +58,7 @@ export const blog1: IBlog = {
                 "Managing 100+ IoT devices doesn’t have to be chaotic. With Salkaro’s real‑time monitoring, bulk onboarding, granular access controls, and secure API integrations, you’ll spend less time on routine maintenance and more time on innovation.",
                 "Ready to see it in action? Start your free Salkaro trial today and have hundreds of devices up and running in minutes.",
             ],
-            link: "https://app.salkaro.com/sign-up",
+            link: "https://iot.app.salkaro.com/sign-up",
             linkTitle: "Get started"
         },
     ],

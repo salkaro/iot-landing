@@ -19,7 +19,7 @@ export const metadata = {
         title: "Terms & Conditions – Salkaro",
         description:
             "Review the terms and conditions for using Salkaro’s IoT solutions, including service usage, limitations, and responsibilities.",
-        url: "https://salkaro.com/terms",
+        url: "https://iot.salkaro.com/terms",
         siteName: "Salkaro",
         images: [
             {

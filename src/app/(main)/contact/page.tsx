@@ -19,7 +19,7 @@ export const metadata = {
         title: "Contact Salkaro",
         description:
             "Talk to our team to get help with setting up your devices, managing firmware, or learning more about our IoT platform.",
-        url: "https://salkaro.com/contact",
+        url: "https://iot.salkaro.com/contact",
         siteName: "Salkaro",
         images: [
             {

@@ -19,7 +19,7 @@ export const metadata = {
         title: "Security at Salkaro – Protecting Your IoT Ecosystem",
         description:
             "Learn how Salkaro keeps your devices and data safe with advanced IoT security practices, encryption, and system monitoring.",
-        url: "https://salkaro.com/security",
+        url: "https://iot.salkaro.com/security",
         siteName: "Salkaro",
         images: [
             {

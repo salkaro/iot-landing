@@ -21,7 +21,7 @@ export const metadata = {
         title: "About Salkaro – Empowering IoT Device Management",
         description:
             "Discover Salkaro’s story, mission, and commitment to making IoT device management seamless, secure, and scalable for developers and businesses.",
-        url: "https://salkaro.com/about",
+        url: "https://iot.salkaro.com/about",
         siteName: "Salkaro",
         images: [
             {

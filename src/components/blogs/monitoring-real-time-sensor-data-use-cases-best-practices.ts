@@ -56,7 +56,7 @@ export const blog2: IBlog = {
                 "Monitoring real‑time sensor data unlocks powerful use cases—from downtime reduction to environmental safety and resource optimization.",
                 "By applying solid architecture design, secure transport, and actionable alerting, platforms like Salkaro make real‑time monitoring scalable and useful across deployments.",
             ],
-            link: "https://app/salkaro.com/sign-up",
+            link: "https://iot.app.salkaro.com/sign-up",
             linkTitle: "Get started"
         }
     ]

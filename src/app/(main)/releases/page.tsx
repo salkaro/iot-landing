@@ -19,7 +19,7 @@ export const metadata = {
         title: "Latest Product Releases – Salkaro",
         description:
             "Discover the newest features, improvements, and firmware updates added to the Salkaro platform. Stay ahead with our latest innovations.",
-        url: "https://salkaro.com/releases",
+        url: "https://iot.salkaro.com/releases",
         siteName: "Salkaro",
         images: [
             {
