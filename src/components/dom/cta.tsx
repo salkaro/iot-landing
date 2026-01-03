@@ -24,7 +24,7 @@ export const CTA = () => {
                         </p>
                     </div>
                     <div className="flex flex-col sm:flex-row gap-4">
-                        <Button className="gap-4" variant="outline" onClick={() => router.push("https://iot.docs.salkaro.com")}>
+                        <Button className="gap-4" variant="outline" onClick={() => router.push("https://iotdocs.salkaro.com")}>
                             Documentation <BookText className="w-4 h-4" />
                         </Button>
                         <Button className="gap-4">

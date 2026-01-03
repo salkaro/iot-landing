@@ -20,7 +20,7 @@ export const blog1: IBlog = {
                 "Connect pressure, temperature, flow, and custom sensors to our IoT platform using simple API requests.",
                 "Monitor live sensor data, receive updates instantly, and make smarter decisions—all from a centralized dashboard.",
             ],
-            link: "https://iot.docs.salkaro.com/docs/upload-device-data",
+            link: "https://iotdocs.salkaro.com/docs/upload-device-data",
         },
         {
             title: "Manage Teams, Permissions, and Devices with Ease",
@@ -50,7 +50,7 @@ export const blog1: IBlog = {
                 "Generate and manage secure API keys for integrating devices and services.",
                 "Ensure sensitive data and controls are only available to authorized users.",
             ],
-            link: "https://iot.docs.salkaro.com/docs/generate-api-keys",
+            link: "https://iotdocs.salkaro.com/docs/generate-api-keys",
         },
         {
             title: "Conclusion: Simplify Your IoT at Scale",

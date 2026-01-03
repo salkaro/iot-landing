@@ -27,7 +27,7 @@ export const Hero = () => {
                             </p>
                         </div>
                         <div className="flex flex-row gap-4">
-                            <Button size="lg" className="gap-4" variant="outline" onClick={() => router.push("https://iot.docs.salkaro.com")}>
+                            <Button size="lg" className="gap-4" variant="outline" onClick={() => router.push("https://iotdocs.salkaro.com")}>
                                 Documentation <BookText className="w-4 h-4" />
                             </Button>
                             <Button size="lg" className="gap-4">

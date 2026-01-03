@@ -36,7 +36,7 @@ export const Navbar = () => {
                 },
                 {
                     title: "API Docs",
-                    href: "https://iot.docs.salkaro.com",
+                    href: "https://iotdocs.salkaro.com",
                 },
                 {
                     title: "Post",
@@ -131,7 +131,7 @@ export const Navbar = () => {
                     <p className="font-semibold">IoT Salkaro</p>
                 </div>
                 <div className="flex justify-end w-full gap-4">
-                    <Button variant="ghost" className="hidden md:inline" onClick={() => router.push("https://iot.docs.salkaro.com")}>
+                    <Button variant="ghost" className="hidden md:inline" onClick={() => router.push("https://iotdocs.salkaro.com")}>
                         Documentation
                     </Button>
                     <div className="border-r hidden md:inline"></div>
