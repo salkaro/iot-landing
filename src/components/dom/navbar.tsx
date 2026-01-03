@@ -102,7 +102,7 @@ export const Navbar = () => {
                                                                 {item.description}
                                                             </p>
                                                         </div>
-                                                        <Button size="sm" className="mt-10" onClick={() => router.push("https://iot.app.salkaro.com/sign-up")}>
+                                                        <Button size="sm" className="mt-10" onClick={() => router.push("https://iotapp.salkaro.com/sign-up")}>
                                                             Get started
                                                         </Button>
                                                     </div>
@@ -135,8 +135,8 @@ export const Navbar = () => {
                         Documentation
                     </Button>
                     <div className="border-r hidden md:inline"></div>
-                    <Button variant="outline" onClick={() => router.push("https://iot.app.salkaro.com/login")}>Sign in</Button>
-                    <Button onClick={() => router.push("https://iot.app.salkaro.com/sign-up")}>Get started</Button>
+                    <Button variant="outline" onClick={() => router.push("https://iotapp.salkaro.com/login")}>Sign in</Button>
+                    <Button onClick={() => router.push("https://iotapp.salkaro.com/sign-up")}>Get started</Button>
                 </div>
                 <div className="flex w-12 shrink lg:hidden items-end justify-end">
                     <Button variant="ghost" onClick={() => setOpen(!isOpen)}>

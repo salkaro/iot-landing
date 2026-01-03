@@ -34,7 +34,7 @@ export const Pricing = () => {
                                 <span className="text-4xl">$0</span>
                                 <span className="text-sm text-muted-foreground">/ month</span>
                             </p>
-                            <Button variant="outline" className="row-span-2 gap-4 mt-8" onClick={() => router.push("https://iot.app.salkaro.com/sign-up")}>
+                            <Button variant="outline" className="row-span-2 gap-4 mt-8" onClick={() => router.push("https://iotapp.salkaro.com/sign-up")}>
                                 Get started
                             </Button>
                         </div>
@@ -49,7 +49,7 @@ export const Pricing = () => {
                                 <span className="text-4xl">$15</span>
                                 <span className="text-sm text-muted-foreground">/ month</span>
                             </p>
-                            <Button variant="outline" className="row-span-2 gap-4 mt-8" onClick={() => router.push("https://iot.app.salkaro.com/sign-up")}>
+                            <Button variant="outline" className="row-span-2 gap-4 mt-8" onClick={() => router.push("https://iotapp.salkaro.com/sign-up")}>
                                 Start trial
                             </Button>
                         </div>
@@ -64,7 +64,7 @@ export const Pricing = () => {
                                 <span className="text-4xl">$49</span>
                                 <span className="text-sm text-muted-foreground">/ month</span>
                             </p>
-                            <Button className="row-span-2 gap-4 mt-8" onClick={() => router.push("https://iot.app.salkaro.com/sign-up")}>
+                            <Button className="row-span-2 gap-4 mt-8" onClick={() => router.push("https://iotapp.salkaro.com/sign-up")}>
                                 Subscribe
                             </Button>
                         </div>
@@ -79,7 +79,7 @@ export const Pricing = () => {
                                 <span className="text-4xl">$99</span>
                                 <span className="text-sm text-muted-foreground">/ month</span>
                             </p>
-                            <Button className="row-span-2 gap-4 mt-8" onClick={() => router.push("https://iot.app.salkaro.com/sign-up")}>
+                            <Button className="row-span-2 gap-4 mt-8" onClick={() => router.push("https://iotapp.salkaro.com/sign-up")}>
                                 Subscribe
                             </Button>
                         </div>
@@ -94,7 +94,7 @@ export const Pricing = () => {
                                 <span className="text-4xl">$199</span>
                                 <span className="text-sm text-muted-foreground">/ month</span>
                             </p>
-                            <Button className="row-span-2 gap-4 mt-8" onClick={() => router.push("https://iot.app.salkaro.com/sign-up")}>
+                            <Button className="row-span-2 gap-4 mt-8" onClick={() => router.push("https://iotapp.salkaro.com/sign-up")}>
                                 Subscribe
                             </Button>
                         </div>

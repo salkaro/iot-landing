@@ -28,7 +28,7 @@ export const CTA = () => {
                             Documentation <BookText className="w-4 h-4" />
                         </Button>
                         <Button className="gap-4">
-                            Sign up here <MoveRight className="w-4 h-4"  onClick={() => router.push("https://iot.app.salkaro.com/sign-up")}/>
+                            Sign up here <MoveRight className="w-4 h-4"  onClick={() => router.push("https://iotapp.salkaro.com/sign-up")}/>
                         </Button>
                     </div>
                 </div>

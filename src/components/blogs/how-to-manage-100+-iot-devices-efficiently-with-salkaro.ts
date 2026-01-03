@@ -58,7 +58,7 @@ export const blog1: IBlog = {
                 "Managing 100+ IoT devices doesn’t have to be chaotic. With Salkaro’s real‑time monitoring, bulk onboarding, granular access controls, and secure API integrations, you’ll spend less time on routine maintenance and more time on innovation.",
                 "Ready to see it in action? Start your free Salkaro trial today and have hundreds of devices up and running in minutes.",
             ],
-            link: "https://iot.app.salkaro.com/sign-up",
+            link: "https://iotapp.salkaro.com/sign-up",
             linkTitle: "Get started"
         },
     ],
