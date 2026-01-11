@@ -5,10 +5,12 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import Globe from "../ui/globe";
 import { useRouter } from "next/navigation";
+import { useAnalytics } from "@/lib/analytics";
 
 
 export const Hero = () => {
     const router = useRouter();
+    const { events } = useAnalytics();
 
     return (
         <div className="w-full py-20 lg:py-40">
@@ -27,11 +29,17 @@ export const Hero = () => {
                             </p>
                         </div>
                         <div className="flex flex-row gap-4">
-                            <Button size="lg" className="gap-4" variant="outline" onClick={() => router.push("https://iotdocs.salkaro.com")}>
+                            <Button size="lg" className="gap-4" variant="outline" onClick={() => {
+                                events.documentationClick("hero");
+                                router.push("https://iotdocs.salkaro.com");
+                            }}>
                                 Documentation <BookText className="w-4 h-4" />
                             </Button>
-                            <Button size="lg" className="gap-4">
-                                Sign up here <MoveRight className="w-4 h-4" onClick={() => router.push("https://iotapp.salkaro.com/sign-up")} />
+                            <Button size="lg" className="gap-4" onClick={() => {
+                                events.signupClick("hero");
+                                router.push("https://iotapp.salkaro.com/sign-up");
+                            }}>
+                                Sign up here <MoveRight className="w-4 h-4" />
                             </Button>
                         </div>
                     </div>

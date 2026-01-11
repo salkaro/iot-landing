@@ -13,9 +13,11 @@ import { Menu, MoveRight, X } from "lucide-react";
 import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { useAnalytics } from "@/lib/analytics";
 
 export const Navbar = () => {
     const router = useRouter();
+    const { events } = useAnalytics();
     const navigationItems = [
         {
             title: "Home",
@@ -102,7 +104,10 @@ export const Navbar = () => {
                                                                 {item.description}
                                                             </p>
                                                         </div>
-                                                        <Button size="sm" className="mt-10" onClick={() => router.push("https://iotapp.salkaro.com/sign-up")}>
+                                                        <Button size="sm" className="mt-10" onClick={() => {
+                                                            events.signupClick("navbar_dropdown");
+                                                            router.push("https://iotapp.salkaro.com/sign-up");
+                                                        }}>
                                                             Get started
                                                         </Button>
                                                     </div>
@@ -131,12 +136,21 @@ export const Navbar = () => {
                     <p className="font-semibold">IoT Salkaro</p>
                 </div>
                 <div className="flex justify-end w-full gap-4">
-                    <Button variant="ghost" className="hidden md:inline" onClick={() => router.push("https://iotdocs.salkaro.com")}>
+                    <Button variant="ghost" className="hidden md:inline" onClick={() => {
+                        events.documentationClick("navbar");
+                        router.push("https://iotdocs.salkaro.com");
+                    }}>
                         Documentation
                     </Button>
                     <div className="border-r hidden md:inline"></div>
-                    <Button variant="outline" onClick={() => router.push("https://iotapp.salkaro.com/login")}>Sign in</Button>
-                    <Button onClick={() => router.push("https://iotapp.salkaro.com/sign-up")}>Get started</Button>
+                    <Button variant="outline" onClick={() => {
+                        events.loginClick("navbar");
+                        router.push("https://iotapp.salkaro.com/login");
+                    }}>Sign in</Button>
+                    <Button onClick={() => {
+                        events.signupClick("navbar");
+                        router.push("https://iotapp.salkaro.com/sign-up");
+                    }}>Get started</Button>
                 </div>
                 <div className="flex w-12 shrink lg:hidden items-end justify-end">
                     <Button variant="ghost" onClick={() => setOpen(!isOpen)}>

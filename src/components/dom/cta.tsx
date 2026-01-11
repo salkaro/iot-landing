@@ -4,9 +4,11 @@ import { BookText, MoveRight } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
+import { useAnalytics } from "@/lib/analytics";
 
 export const CTA = () => {
     const router = useRouter();
+    const { events } = useAnalytics();
 
     return (
         <div className="w-full py-20 lg:py-40 bg-muted">
@@ -24,11 +26,17 @@ export const CTA = () => {
                         </p>
                     </div>
                     <div className="flex flex-col sm:flex-row gap-4">
-                        <Button className="gap-4" variant="outline" onClick={() => router.push("https://iotdocs.salkaro.com")}>
+                        <Button className="gap-4" variant="outline" onClick={() => {
+                            events.documentationClick("cta");
+                            router.push("https://iotdocs.salkaro.com");
+                        }}>
                             Documentation <BookText className="w-4 h-4" />
                         </Button>
-                        <Button className="gap-4">
-                            Sign up here <MoveRight className="w-4 h-4"  onClick={() => router.push("https://iotapp.salkaro.com/sign-up")}/>
+                        <Button className="gap-4" onClick={() => {
+                            events.signupClick("cta");
+                            router.push("https://iotapp.salkaro.com/sign-up");
+                        }}>
+                            Sign up here <MoveRight className="w-4 h-4" />
                         </Button>
                     </div>
                 </div>
